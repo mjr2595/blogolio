@@ -9,15 +9,42 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
       <h1>{SITE_TITLE}</h1>
       <h2>{SITE_DESCRIPTION}</h2>
     </div>
+    <div class="img-frame">
+      <img id="propic" src="/src/assets/me.png" alt="Astro Logo" />
+    </div>
   </div>
 </header>
 <nav>
   <HeaderLink href="/">home</HeaderLink>
-  <HeaderLink href="/posts">posts</HeaderLink>
+  <HeaderLink href="/blog">blog</HeaderLink>
   <HeaderLink href="/projects">projects</HeaderLink>
+  <HeaderLink href="https://github.com/mjr2595" target="_blank"
+    >github</HeaderLink
+  >
+  <HeaderLink href="https://www.linkedin.com/in/mjraymond" target="_blank"
+    >linkedin</HeaderLink
+  >
+  <HeaderLink href="https://bsky.app/profile/mray.bsky.social" target="_blank"
+    >bluesky</HeaderLink
+  >
 </nav>
 <style>
   h2 {
     margin: 0.5em 0;
+  }
+  .img-frame {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 10px 0;
+    margin-left: 2rem;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  #propic {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-position: center 25%;
   }
 </style>

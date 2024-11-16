@@ -1,2 +1,2 @@
-export const SITE_TITLE = "Mike's Super Short Blog";
-export const SITE_DESCRIPTION = "words about things";
+export const SITE_TITLE = "Michael Raymond (mray)";
+export const SITE_DESCRIPTION = "code. coffee. tacos. music. all at once.";

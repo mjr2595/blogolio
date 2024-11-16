@@ -1,6 +1,6 @@
 ---
 layout: ../layouts/BlogPost.astro
-title: Hello, world!
+title: Hello, world! 🌎
 slug: hello-world
 description: >-
   This is an example blog!

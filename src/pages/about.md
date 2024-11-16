@@ -1,1 +1,1 @@
-Hello I am blogolio
+Yo! I'm a Software Engineer with a background in technical support leadership and IT. I'm on the Monitoring team at LogicMonitor where we work on modules to collect time-series data for IT infrastructure. I also enjoy building web applications and tinkering with self-hosting. When I'm not coding, you can find me hanging out with my dog and two cats, performing improv theater, or tweaking my pour over coffee technique.

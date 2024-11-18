@@ -1,28 +1,50 @@
 ---
-const { slug, title, tags, description, date } = Astro.props;
+const { slug, title, tags, description, date, image } = Astro.props;
 ---
 
 <li class="post">
-  <a href={`/posts/${slug}/`} class="title">{title}</a>
-  <time datetime={date}>
-    {
-      new Date(date).toLocaleDateString("en-us", {
-        year: "numeric",
-        month: "short",
-        day: "numeric",
-      })
-    }
-  </time>
-  <br />
-  {description && <span class="excerpt">{description}</span>}
-  <div>
-    {
-      tags &&
-        tags.map((tag) => (
-          <a class="tag" href={`/tag/${tag}`}>
-            #{tag}
-          </a>
-        ))
-    }
+  <div class="post-content">
+    <a href={`/posts/${slug}/`} class="title">{title}</a>
+    <time datetime={date}>
+      {
+        new Date(date).toLocaleDateString("en-us", {
+          year: "numeric",
+          month: "short",
+          day: "numeric",
+        })
+      }
+    </time>
+    <br />
+    {description && <span class="excerpt">{description}</span>}
+    <div>
+      {
+        tags &&
+          tags.map((tag) => (
+            <a class="tag" href={`/tag/${tag}`}>
+              #{tag}
+            </a>
+          ))
+      }
+    </div>
   </div>
+  <a href={`/posts/${slug}/`}>
+    <img class="post-thumbnail" src={image.url} alt={image.alt} />
+  </a>
 </li>
+
+<style>
+  .post {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .post-content {
+    flex: 1;
+  }
+
+  .post-thumbnail {
+    width: 125px;
+    height: auto;
+    object-fit: contain;
+  }
+</style>

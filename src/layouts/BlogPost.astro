@@ -5,6 +5,8 @@ import Footer from "../components/Footer.astro";
 import Tags from "../components/Tags.astro";
 import getTags from "../scripts/getTags";
 
+const { frontmatter } = Astro.props;
+
 const posts = await Astro.glob("../posts/*.md");
 const allTags = getTags(posts);
 
@@ -47,6 +49,7 @@ if (updated) {
         }
         <Tags tags={tags} />
         <hr />
+        <img src={frontmatter.image.url} alt={frontmatter.image.alt} />
         <div class="blog-post">
           <slot />
         </div>

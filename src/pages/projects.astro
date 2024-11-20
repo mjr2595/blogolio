@@ -2,9 +2,10 @@
 import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
-import Post from "../components/Post.astro";
+import Project from "../components/Project.astro";
 
 import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
+import projects from "../scripts/projects";
 ---
 
 <!doctype html>
@@ -12,7 +13,24 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
   <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
   <body>
     <Header />
-    <main>projects</main>
-    <Footer />
+    <main>
+      <content>
+        <ul class="projects-list">
+          {
+            Object.entries(projects).map(([key, project]) => (
+              <Project key={key} {...project} />
+            ))
+          }
+        </ul>
+      </content>
+      <Footer />
+    </main>
   </body>
 </html>
+
+<style>
+  .projects-list {
+    padding: 0;
+    margin: 2rem 0;
+  }
+</style>

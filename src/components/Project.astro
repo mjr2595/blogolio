@@ -1,0 +1,43 @@
+---
+const { name, image, links, description } = Astro.props;
+---
+
+<div class="project-header">
+  <h1>{name}: [</h1>
+  <ul>
+    {
+      Object.entries(links).map(([name, url], index, array) => (
+        <li>
+          <a href={url} target="_blank">
+            {name}
+          </a>
+          {index < array.length - 1 ? "," : ""}
+        </li>
+      ))
+    }
+  </ul>
+  <h1>]</h1>
+</div>
+<img src={image.url} alt={image.alt} />
+<p>{description}</p>
+
+<hr />
+
+<style>
+  .project-header {
+    display: flex;
+    align-items: center;
+  }
+
+  ul {
+    display: flex;
+    gap: 0.5rem;
+    list-style: none;
+    padding: 0;
+  }
+
+  ul li {
+    display: flex;
+    align-items: center;
+  }
+</style>

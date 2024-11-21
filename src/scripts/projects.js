@@ -6,7 +6,7 @@ const projects = {
       alt: "image of Nuron app on a tablet, phone, and laptop. Caption says 'rewrite your story'",
     },
     links: {
-      splash: "https://thenuronway.com/",
+      landing_page: "https://thenuronway.com/",
       live: "https://chataiden.com/",
     },
     description:

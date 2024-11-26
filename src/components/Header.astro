@@ -1,6 +1,7 @@
 ---
 import HeaderLink from "./HeaderLink.astro";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
+const pathname = Astro.url.pathname;
 ---
 
 <header>
@@ -19,9 +20,9 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
   </div>
 </header>
 <nav>
-  <HeaderLink href="/">home</HeaderLink>
-  <HeaderLink href="/blog">blog</HeaderLink>
-  <HeaderLink href="/projects">projects</HeaderLink>
+  <HeaderLink href="/" class={pathname}>home</HeaderLink>
+  <HeaderLink href="/blog" class={pathname}>blog</HeaderLink>
+  <HeaderLink href="/projects" class={pathname}>projects</HeaderLink>
   <HeaderLink href="https://github.com/mjr2595" target="_blank"
     >github</HeaderLink
   >

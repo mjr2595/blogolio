@@ -261,8 +261,8 @@ ul li time {
   white-space: nowrap;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 543px) {
   nav a:not(:last-child) {
-    padding: 0;
+    padding: 0 6px 0 0;
   }
 }

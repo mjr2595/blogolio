@@ -33,16 +33,30 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
   >
 </nav>
 <style>
+  h1 {
+    font-size: 1.75rem;
+  }
+
   h2 {
     margin: 0.5em 0;
   }
 
+  .header-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .header-frame {
+    flex: 1;
+    min-width: 400px;
+  }
+
   .img-frame {
-    position: relative;
     width: 150px;
     height: 150px;
     margin: 10px 0;
-    margin-left: 2rem;
     border-radius: 50%;
     overflow: hidden;
   }
@@ -52,5 +66,21 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
     width: 100%;
     height: 100%;
     object-position: center 25%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 629px) {
+    .header-section {
+      flex-direction: column;
+      text-align: center;
+    }
+    .header-frame {
+      flex: 1;
+      min-width: 100px;
+    }
+    .img-frame {
+      margin-top: 1em;
+    }
   }
 </style>

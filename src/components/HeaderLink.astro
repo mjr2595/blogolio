@@ -1,6 +1,12 @@
 ---
 const { href, class: className, ...props } = Astro.props;
-let isActive = href === Astro.url.pathname;
+let isActive;
+
+if (href === "/") {
+  isActive = Astro.url.pathname === href;
+} else {
+  isActive = Astro.url.pathname.startsWith(href);
+}
 ---
 
 <a href={href} class:list={[className, { active: isActive }]} {...props}>
@@ -12,7 +18,7 @@ let isActive = href === Astro.url.pathname;
     text-decoration: none;
   }
 
-  a:hover {
+  a.active {
     font-weight: bold;
     text-decoration: underline;
     text-underline-offset: 0.3ex;

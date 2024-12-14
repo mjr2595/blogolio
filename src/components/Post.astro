@@ -43,10 +43,31 @@ const { slug, title, tags, description, date, image } = Astro.props;
     flex: 1;
   }
 
+  .excerpt {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+  }
+
   .post-thumbnail {
     width: 100%;
     height: auto;
     object-fit: contain;
+    opacity: 0.9;
+    margin-top: 0em;
+  }
+
+  .post-thumbnail:hover {
+    opacity: 1;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 0.3ex;
   }
 
   @media (min-width: 511px) {
@@ -55,6 +76,7 @@ const { slug, title, tags, description, date, image } = Astro.props;
     }
     .post-thumbnail {
       width: 150px;
+      margin-top: 0.25em;
     }
   }
 </style>

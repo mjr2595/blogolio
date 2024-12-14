@@ -7,6 +7,7 @@ tags:
   - dev
   - community
 added: "May 9 2024"
+updated: "Dec 13 2024"
 image:
   url: "https://static1.colliderimages.com/wordpress/wp-content/uploads/2022/04/Community-copy.jpg"
   alt: "promo image for the TV show 'Community' with the cast in front of a yellow background"
@@ -28,11 +29,13 @@ We got [Techqueria](https://techqueria.org) (this the big one). And we got [Hisp
 
 Alrighty, so let's wrap this whole thing up. I'll leave you with a bunch of tech communities that you can check out:
 
+- _NEW:_ [Torc](https://www.torc.dev/) - Developer networking and talent network thing. It's cool I promise.
+- _NEW:_ [Dad's in Tech]() - For dads... in tech! Hit me up for an invite
 - [Hispanic Hackers](https://www.hispanichackers.com/) - I mean yeah I am a bit biased but it's pretty cool
 - [Techqueria](https://techqueria.org) - It's like Hispanic Hackers but much much larger with chapters across the US and even Puerto Rico and Mexico City!
 - [freeCodeCamp](https://www.freecodecamp.org/news/about/) - Not just great for learning to code, but also a fantastic community for new devs
 - [Major League Hacking](https://mlh.io/) - Awesome resource for hackathons. They also run a monthly "Global Hack Week" where they live stream and host sessions focusing on a specific topic.
-- [100Devs](https://100devs.org/about) - I heard some great things about this bootcamp/community/agency(?). There's a bumpin Discord too. I haven't participated but heard nothing but good things. Def going to be seeing how I can get involved.
+- [100Devs](https://100devs.org/about) - I heard some great things about this bootcamp/community/agency(?). There's a bumpin Discord too. I never went through the curriculum, but just being a part of this community is badass.
 - [Equipt](https://www.joinequipt.com/) - This is like a professional development type community that hosts regular live sessions with industry professionals.
 - And then you got a whole bunch of other communities for specific languages ([Python](https://www.python.org/community/) and [Go](https://go.dev/help) have really good communities), [Cloud Native Computing Foundation](https://www.cncf.io/) (CNCF) for cloud and DevOps stuff, communities around dev podcasts ([Sytax.fm](https://syntax.fm/), [The Changelog](https://changelog.com/), [Boot.dev](https://boot.dev/)), and even communities around dev Twitch streamers and Youtubers.
 

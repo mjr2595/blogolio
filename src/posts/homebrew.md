@@ -32,7 +32,7 @@ You can either create this file manually or you can generate one based on all yo
 brew bundle dump
 ```
 
-This will create a file named `Brewfile` in your current directory. If
+This will create a file named `Brewfile` in your current directory.
 
 Note: if you use vscode, then you will also see all your extensions listed in here too. This is a bit annoying for me because I just sync all that automatically anyway. You can just delete these lines from the file or you can add the `--no-vscode` flag to the above bundle command. You can also set the `$HOMEBREW_BUNDLE_DUMP_NO_VSCODE` environment variable. I just added it to my .zshrc file like so:
 

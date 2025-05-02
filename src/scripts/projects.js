@@ -54,7 +54,7 @@ const projects = {
   linksync: {
     name: "Link Sync",
     image: {
-      url: "https://i.imgur.com/sEvndG9.png",
+      url: "https://i.imgur.com/XMhEweo.png",
       alt: "Screenshot of Link Sync site showing a list of links with icons and copy button.",
     },
     links: {

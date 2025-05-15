@@ -25,6 +25,18 @@ const projects = {
     description:
       "Video game discovery web app leveraging the rawg.io API. Built with React, TypeScript, Chakra UI, Axios, React Query, React Router, and Zustand.",
   },
+  linksync: {
+    name: "Link Sync",
+    image: {
+      url: "https://i.imgur.com/XMhEweo.png",
+      alt: "Screenshot of Link Sync site showing a list of links with icons and copy button.",
+    },
+    links: {
+      github: "https://github.com/mjr2595/link-sync",
+      live: "https://mjr2595.github.io/link-sync/",
+    },
+    description: "All my links in a simple list. HTML, CSS, JS.",
+  },
   jhj: {
     name: "JessieHeartJace",
     image: {
@@ -50,18 +62,6 @@ const projects = {
     },
     description:
       "Social media for dogs. MERN Stack application for Nucamp Coding Bootcamp Honors certificate.",
-  },
-  linksync: {
-    name: "Link Sync",
-    image: {
-      url: "https://i.imgur.com/XMhEweo.png",
-      alt: "Screenshot of Link Sync site showing a list of links with icons and copy button.",
-    },
-    links: {
-      github: "https://github.com/mjr2595/link-sync",
-      live: "https://mjr2595.github.io/link-sync/",
-    },
-    description: "All my links in a simple list. HTML, CSS, JS.",
   },
 };
 

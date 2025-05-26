@@ -1,4 +1,17 @@
 const projects = {
+  blogolio: {
+    name: "Blogolio",
+    image: {
+      url: "https://i.imgur.com/NCuQs1W.png",
+      alt: "Screenshot of Blogolio site open to the Projects page. There's a list of projects with titles, images, and descriptions. The Blogolio project is self-referential and has a recursive image of itself.",
+    },
+    links: {
+      github: "https://github.com/mjr2595/blogolio",
+      live: "/",
+    },
+    description:
+      "It's this site you're currently on. Blog and portfolio thing built using Astro.",
+  },
   nuron: {
     name: "Nuron",
     image: {
@@ -36,19 +49,6 @@ const projects = {
       live: "https://mjr2595.github.io/link-sync/",
     },
     description: "All my links in a simple list. HTML, CSS, JS.",
-  },
-  jhj: {
-    name: "JessieHeartJace",
-    image: {
-      url: "https://i.imgur.com/OdAnBaV.png",
-      alt: "Screenshot of JessieHeartJace website showing homepage. Title says 'Let's spread some pawsitivity' and features a hero image with a boston terrier and lab.",
-    },
-    links: {
-      github: "https://github.com/mjr2595/pet-services",
-      live: "https://jessieheartjace.vercel.app/",
-    },
-    description:
-      "Website for my wife's pet services. Built with React, TypeScript, and Chakra UI.",
   },
   barkbook: {
     name: "Barkbook",

@@ -1,0 +1,89 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+
+import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
+---
+
+<!doctype html>
+<html lang="en-us">
+  <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  <body>
+    <Header />
+    <main>
+      <content>
+        <content>
+          <ul class="links">
+            <li>
+              <a
+                href="https://github.com/mjr2595"
+                target="_blank"
+                rel="noopener noreferrer">GitHub</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/mjraymond"
+                target="_blank"
+                rel="noopener noreferrer">LinkedIn</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://bsky.app/profile/mray.bsky.social"
+                target="_blank"
+                rel="noopener noreferrer">Bluesky</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://platform.torc.dev/#/r/gXg2hw2B/cp"
+                target="_blank"
+                rel="noopener noreferrer">Torc</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://discordapp.com/users/691148133580931143"
+                target="_blank"
+                rel="noopener noreferrer">Discord</a
+              >
+            </li>
+          </ul>
+        </content>
+      </content>
+      <Footer />
+    </main>
+  </body>
+</html>
+
+<style>
+  .links {
+    list-style: none;
+    padding: 0;
+    margin: 2rem auto;
+    max-width: 300px;
+  }
+  .links li {
+    border-bottom: 1px solid var(--white);
+  }
+  .links li:last-child {
+    border-bottom: none;
+  }
+  .links a {
+    display: block;
+    text-decoration: none;
+    padding: 1.3rem 1.5rem;
+    font-size: 1.3rem;
+    transition:
+      background 0.2s,
+      color 0.2s;
+  }
+  .links a:hover,
+  .links a:focus {
+    background: var(--gray);
+    color: var(--black);
+    cursor: pointer;
+  }
+</style>

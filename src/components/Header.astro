@@ -23,15 +23,7 @@ const pathname = Astro.url.pathname;
   <HeaderLink href="/" class={pathname}>home</HeaderLink>
   <HeaderLink href="/blog" class={pathname}>blog</HeaderLink>
   <HeaderLink href="/projects" class={pathname}>projects</HeaderLink>
-  <HeaderLink href="https://github.com/mjr2595" target="_blank"
-    >github</HeaderLink
-  >
-  <HeaderLink href="https://www.linkedin.com/in/mjraymond" target="_blank"
-    >linkedin</HeaderLink
-  >
-  <HeaderLink href="https://bsky.app/profile/michaelraymond.dev" target="_blank"
-    >bluesky</HeaderLink
-  >
+  <HeaderLink href="/links" class={pathname}>links</HeaderLink>
 </nav>
 <style>
   h1 {

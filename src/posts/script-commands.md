@@ -38,7 +38,7 @@ Sidebar, in case you didn't know, [Raycast](https://www.raycast.com/) is a spotl
 
 > ℹ️ This is just the basic header. You can configure command arguments and whole lot more.
 
-Ok so now to land this thing. I saved some of my favorite videos in a markdown file. This command triggers a lil bash script that grabs a video ID from that list at random and copies to the clipboard. This allows me to paste that into the pomo timer app. I should also note that the paid version of the app allows you to use a youtube playlist URL which would also solve this problem. I do really like the app and would love to support the dev, but money is a bit tight at the moment (see [this post](/posts/big-stuff).
+Ok so now to land this thing. I saved some of my favorite videos in a markdown file. This command triggers a lil bash script that grabs a video ID from that list at random and copies to the clipboard. This allows me to paste that into the pomo timer app. I should also note that the paid version of the app allows you to use a youtube playlist URL which would also solve this problem. I do really like the app and would love to support the dev, but money is a bit tight at the moment (see [this post](/posts/big-stuff)).
 
 I guess just to wrap it up, Raycast is dope and I find creating little scripts to make my life easier to be fun and super easy. Next step is to make an actual extension, but so far I really haven't felt the need to with script commands. If you want, you can check out my repo of these scripts [here](https://github.com/mjr2595/mac-setup/tree/main/utils).
 

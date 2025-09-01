@@ -1,24 +1,21 @@
-https://www.linkedin.com/events/7366488679034347521/
-https://www.youtube.com/watch?v=QIm4UyEKKxU
-
 ---
-
 layout: ../layouts/BlogPost.astro
 title: Anotha One 🎙️
 slug: job-decoder
-description: "I talked into a mic about tech support and IT"
+description: "I was on Job Decoder and my job was decoded"
 tags:
-
-- career
-  added: "Sept 1 2025"
-  image:
-  url: "https://i.imgur.com/5jINLPI.png"
-  alt: "Reddit app logo in background with Patrick Star booing it and doing a thumbs down."
-
+  - career
+  - community
+added: "Sept 1 2025"
+image:
+  url: "https://i.imgur.com/0bEZ3eK.png"
+  alt: "Youtube video thumbnail of me and podcast host."
 ---
 
-This was pretty cool. I have been familiar with [DonTheDeveloper](https://www.youtube.com/@DonTheDeveloper/featured) for a bit. I actually watched a couple of his videos about Nucamp before making my decision to attend. So it was a little surreal to get hit up in DM on LinkedIn by Don asking if I'd like to be on the podcast. I legit thought it was spam.
+Keeping this one super short and sweet.
 
-But yeah, I had a good time! Hopefully, this video can help someone with their bootcamp selection.
+I had a blast being featured on the Job Decoder podcast! Hosted by my Torc pal [Angelos](https://www.linkedin.com/in/angeloskatrantzis/), we chatted it up about improv theater, technical support, IT, and how you need empathy to thrive in all the above.
 
-Oh yeah here's the video: [https://www.youtube.com/watch?v=oQksD9a-9bw](https://www.youtube.com/watch?v=oQksD9a-9bw)
+Check it out the stream recording on [linkedin](https://www.linkedin.com/events/7366488679034347521/) or [youtube](https://www.youtube.com/watch?v=QIm4UyEKKxU).
+
+Of course shout out to the best dev community in the game, [Torc](https://torc.community/). If you ain't there, you square. So [join](https://platform.torc.dev/#/r/gXg2hw2B/cp) already ya goober.

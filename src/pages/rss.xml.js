@@ -11,7 +11,7 @@ posts = posts.sort(
 
 export const GET = () =>
   rss({
-    title: SITE_TITLE,
+    title: BLOG_TITLE,
     description: SITE_DESCRIPTION,
     site: import.meta.env.SITE,
     items: posts.map((post) => {

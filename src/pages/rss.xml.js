@@ -1,5 +1,5 @@
 import rss from "@astrojs/rss";
-import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
+import { BLOG_TITLE, SITE_DESCRIPTION } from "../config";
 
 let posts = Object.values(import.meta.glob("../posts/*.md", { eager: true }));
 console.log(posts);

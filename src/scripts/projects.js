@@ -1,4 +1,17 @@
 const projects = {
+  blorc: {
+    name: "Blorc",
+    image: {
+      url: "https://i.imgur.com/mUra77y.png",
+      alt: 'Screenshot of the blorc website. it is a black background with text saying "Latest Blog Posts from Torc Community Members" and below is a list of blog post titles and summaries',
+    },
+    links: {
+      github: "https://github.com/mjr2595/blorc",
+      live: "https://blorc.netlify.app/",
+    },
+    description:
+      "A list of the latest blog posts from members of the Torc Community. Aggregates RSS feeds and displays the latest 25 posts. Created with Astro and Netlify server-side functions.",
+  },
   blogolio: {
     name: "Blogolio",
     image: {

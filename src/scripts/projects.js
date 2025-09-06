@@ -2,7 +2,7 @@ const projects = {
   blorc: {
     name: "Blorc",
     image: {
-      url: "https://i.imgur.com/mUra77y.png",
+      url: "https://i.imgur.com/d7BCijk.png",
       alt: 'Screenshot of the blorc website. it is a black background with text saying "Latest Blog Posts from Torc Community Members" and below is a list of blog post titles and summaries',
     },
     links: {

@@ -12,18 +12,18 @@ const projects = {
     description:
       "A list of the latest blog posts from members of the Torc Community. Aggregates RSS feeds and displays the latest 25 posts. Created with Astro and Netlify server-side functions.",
   },
-  blogolio: {
-    name: "Blogolio",
+  taygo: {
+    name: "Taygo",
     image: {
-      url: "https://i.imgur.com/NCuQs1W.png",
-      alt: "Screenshot of Blogolio site open to the Projects page. There's a list of projects with titles, images, and descriptions. The Blogolio project is self-referential and has a recursive image of itself.",
+      url: "https://i.imgur.com/c36ZurU.png",
+      alt: "Screenshot of taygo. it is a bingo game with a grid of words and phrases.",
     },
     links: {
-      github: "https://github.com/mjr2595/blogolio",
-      live: "/",
+      github: "https://github.com/mjr2595/taygo",
+      live: "https://taygo.netlify.app/",
     },
     description:
-      "It's this site you're currently on. Blog and portfolio thing built using Astro.",
+      "An interactive bingo-style game designed to be played while watching Taylor Desseyn's Guidance Counselor 2.0 podcast. Very silly, very Torc. HTML, CSS, JS.",
   },
   nuron: {
     name: "Nuron",

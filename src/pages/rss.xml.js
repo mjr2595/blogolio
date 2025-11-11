@@ -2,7 +2,6 @@ import rss from "@astrojs/rss";
 import { BLOG_TITLE, SITE_DESCRIPTION } from "../config";
 
 let posts = Object.values(import.meta.glob("../posts/*.md", { eager: true }));
-console.log(posts);
 posts = posts.sort(
   (a, b) =>
     new Date(b.frontmatter.updated || b.frontmatter.added).valueOf() -
@@ -21,9 +20,8 @@ export const GET = () =>
         pubDate: post.frontmatter.added,
         description: post.frontmatter.description,
         content: post.compiledContent(),
-        customData: `<updated>${
-          post.frontmatter.updated ? post.frontmatter.updated : ""
-        }</updated>`,
+        customData: `<updated>${post.frontmatter.updated ? post.frontmatter.updated : ""
+          }</updated>`,
       };
     }),
   });

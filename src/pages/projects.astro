@@ -5,7 +5,7 @@ import Footer from "../components/Footer.astro";
 import Project from "../components/Project.astro";
 
 import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
-import projects from "../scripts/projects";
+import projects from "../data/projects.json";
 ---
 
 <!doctype html>
@@ -18,7 +18,7 @@ import projects from "../scripts/projects";
         <ul class="projects-list">
           {
             Object.entries(projects).map(([key, project]) => (
-              <Project key={key} {...project} />
+              <Project key={key} name={key} {...project} />
             ))
           }
         </ul>

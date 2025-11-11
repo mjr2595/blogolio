@@ -6,7 +6,7 @@ import HomePosts from "../components/HomePosts.astro";
 import Tags from "../components/Tags.astro";
 import { SITE_TITLE, SITE_DESCRIPTION, SITE_URL } from "../config";
 import { Content as About } from "./about.md";
-import getTags from "../scripts/getTags";
+import getTags from "../data/getTags";
 
 const posts = await Astro.glob("../posts/*.md");
 

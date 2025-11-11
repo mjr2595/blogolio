@@ -10,14 +10,7 @@ const { name, image, links, description } = Astro.props;
       {
         Object.entries(links).map(([linkName, url], index, array) => (
           <li>
-            <a
-              href={String(url)}
-              target={
-                name === "Blogolio" && linkName !== "github"
-                  ? "_self"
-                  : "_blank"
-              }
-            >
+            <a href={String(url)} target="_blank">
               {linkName}
             </a>
             {index < array.length - 1 ? "," : ""}

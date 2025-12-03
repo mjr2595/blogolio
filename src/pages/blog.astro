@@ -3,7 +3,9 @@ import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import Post from "../components/Post.astro";
+import Tags from "../components/Tags.astro";
 import { SITE_TITLE, SITE_DESCRIPTION, SITE_URL } from "../config";
+import getTags from "../data/getTags";
 
 // Use Astro.glob() to fetch all posts, and then sort them by date.
 const posts = (await Astro.glob("../posts/*.md")).sort(
@@ -11,6 +13,8 @@ const posts = (await Astro.glob("../posts/*.md")).sort(
     new Date(b.frontmatter.updated || b.frontmatter.added).valueOf() -
     new Date(a.frontmatter.updated || a.frontmatter.added).valueOf()
 );
+
+const tags = getTags(posts);
 ---
 
 <!doctype html>
@@ -25,6 +29,7 @@ const posts = (await Astro.glob("../posts/*.md")).sort(
           src="https://i.imgur.com/WNfdLE1.png"
           alt="blog logo saying 'Mike's Super Short Blog'"
         />
+        <Tags tags={tags} all />
         <ul class="posts-list">
           {
             posts.map(

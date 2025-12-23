@@ -10,6 +10,7 @@
 <style>
   nav[aria-label="webring"] {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -23,5 +24,16 @@
   }
   nav[aria-label="webring"] a:hover {
     text-decoration: underline;
+  }
+  @media (max-width: 570px) {
+    nav[aria-label="webring"] {
+      flex-direction: column;
+      gap: 0.25rem;
+      padding-bottom: 2rem;
+    }
+    nav[aria-label="webring"] a {
+      width: 100%;
+      margin: 0;
+    }
   }
 </style>

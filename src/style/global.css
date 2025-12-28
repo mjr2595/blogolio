@@ -23,6 +23,7 @@
   background-color: var(--highlight);
   color: var(--black);
 }
+
 html,
 body {
   margin: auto;
@@ -33,12 +34,14 @@ body {
   overflow-wrap: break-word;
   color: var(--black);
 }
+
 html,
 body,
 button,
 code {
-  font-family: "iA Writer Mono", monospace;
+  font-family: "Monaspace Neon", monospace;
 }
+
 h1,
 strong,
 b {
@@ -54,6 +57,7 @@ button.dark-mode button {
   background: var(--black);
   color: var(--white);
 }
+
 body.dark-mode nav {
   background: var(--transblack);
 }
@@ -68,9 +72,11 @@ body.dark-mode nav {
     background-color: var(--highlight);
     color: var(--white);
   }
+
   :root {
     --gray: #a4a4a4;
   }
+
   html,
   body,
   body button,
@@ -83,18 +89,23 @@ body.dark-mode nav {
     background: var(--black);
     color: var(--white);
   }
+
   body nav {
     background: var(--transblack);
   }
+
   body code {
     background-color: var(--moretranswhite);
   }
+
   body a {
     color: var(--white);
   }
+
   body .tag {
     color: var(--gray);
   }
+
   .tag-title {
     color: var(--white);
   }
@@ -134,6 +145,7 @@ nav {
 nav a {
   margin: 25px 0;
 }
+
 nav a:not(:last-child) {
   padding: 0 12px 0 0;
 }
@@ -162,6 +174,7 @@ ul.tags-list {
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .tag {
   display: inline-block;
   margin-right: 20px;
@@ -169,6 +182,7 @@ ul.tags-list {
   font-size: 0.8rem;
   text-decoration: none;
 }
+
 .tag:hover {
   cursor: pointer;
   font-weight: bold;
@@ -179,31 +193,39 @@ textarea {
   width: 100%;
   font-size: 16px;
 }
+
 input {
   font-size: 16px;
 }
+
 main,
 content {
   line-height: 1.6;
 }
+
 table {
   width: 100%;
 }
+
 img {
   max-width: 100%;
   height: auto;
 }
+
 code {
   padding: 2px 5px;
   background-color: var(--moretransblack);
   font-weight: bold;
 }
+
 pre {
   padding: 1rem;
 }
-pre > code {
+
+pre>code {
   all: unset;
 }
+
 blockquote {
   border: 1px solid var(--gray);
   color: var(--black);
@@ -253,7 +275,7 @@ article :not(.article-title) {
   font-size: clamp(1rem, 0.96rem + 0.22vw, 1.125rem);
 }
 
-.blog-post > * + * {
+.blog-post>*+* {
   margin-block-start: 1em;
 }
 

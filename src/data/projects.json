@@ -1,4 +1,15 @@
 {
+  "Unraveler": {
+    "image": {
+      "url": "https://i.imgur.com/xnrDsrB.png",
+      "alt": "Screenshot of the Unraveler Chrome Web Store listing page, showing the extension name, icon, Add to Chrome button, and a preview screenshot."
+    },
+    "links": {
+      "github": "https://github.com/mjr2595/unraveler",
+      "chrome_store": "https://chromewebstore.google.com/detail/unraveler-%E2%80%94-jira-thread-e/ppdhnklampnbinhpejefjkhgjpndiebo"
+    },
+    "description": "Chrome extension that automatically expands Jira Cloud issue threads because I was tired of ripping my freakin hair out. Manifest V3, vanilla JS, with tests because why not."
+  },
   "Blorc": {
     "image": {
       "url": "https://i.imgur.com/d7BCijk.png",
